@@ -4,8 +4,8 @@ char[] chars = new char[3] { 'h', 'e', 'm' };
 
 PrintArray.PrintArray print = new PrintArray.PrintArray();
 Console.WriteLine("-------Int Array----------------");
-print.PrintIntArray(intArray);
+print.ToPrintArray(intArray);
 Console.WriteLine("-------DoubleArray--------------");
-print.PrintDoubleArray(doubleArray);
+print.ToPrintArray(doubleArray);
 Console.WriteLine("-------Char Array---------------");
-print.PrintCharArray(chars);
+print.ToPrintArray(chars);
